@@ -1,10 +1,9 @@
-function evenOrOdd() {
-    for (let input = 0; input < 10; input++) {
-        if (input % 2 === 0) {
-            console.log('even');
-        } else {
-            console.log('odd');
-        }
+function evenOrOdd(input) {
+    if (input % 2 === 0) {
+        return 'even';
+    } else {
+        return 'odd';
     }
 }
-evenOrOdd();
+let answer = evenOrOdd(111);
+console.log(answer);
