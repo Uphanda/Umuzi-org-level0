@@ -10,6 +10,4 @@ function outputCommonChars(str1, str2) {
     return commonChars;
 }
 let characters = outputCommonChars('nkosi', 'nathi');
-for (let i = 0; i < characters.length; i++) {
-    console.log(characters.charAt(i));
-}
+console.log(characters.split('').toString());
