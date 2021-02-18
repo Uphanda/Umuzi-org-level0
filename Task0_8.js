@@ -4,7 +4,7 @@ function numbertToTime(number) {
     if (hours >= 2 || hours == 0) {
         return hours + ' hours' + ',' + minutes + ' minutes';
     } else if (hours == 1) {
-        return hours + ' hour' + ',' + minutes + ' minutes';
+        return hours + ' hour' + ',' + minutes + ' minute';
     }
 
 
